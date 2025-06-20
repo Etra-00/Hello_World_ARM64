@@ -1,11 +1,14 @@
-# Authors: Ethan Parker
-# Contact: etra.personal_00@proton.me
+### Authors: Ethan Parker
+### Contact: etra.personal_00@proton.me
+### Platform: MacOS
 
 
-### Description
-This project is a simple "Hello World" written in ARM64 Assembly.
+## Description
+This project is a simple "Hello World" written in ARM64 Assembly, and designed to run on MacOS.
+This means, if the project is ran on any other Operating System, it very likely will return an error due to differing system call numbers, and instruction sets.
 It was written as practice for myself, as well as a sort of motivator to look back on as I progress.
 The 'main.s' file is heavily commented for my own reference, but feel free to check it out yourself if you're trying to dip a toe in low-level programming.
+
 
 
 ### Last Words
