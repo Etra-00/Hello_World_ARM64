@@ -7,7 +7,7 @@
 //
 
 
-.global _main			// Program Starting Address
+.global _start			// Program Starting Address
 .align 4			// Aligns the memory
 
 
@@ -15,7 +15,7 @@
 // Then call on the OS to execute through a Syscall
 
 
-_main:
+_start:
 	mov	X0, #1		// 1 == stdout
 	adr	X1, helloworld	// string to be printed
 	mov	X2, #13		// Length of the string
